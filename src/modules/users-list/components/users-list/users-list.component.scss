@@ -1,0 +1,23 @@
+.user-list{
+    display: flex;
+    flex-direction: column;
+.user-list-table{
+    max-width: 650px;
+    button{
+        width:100%;
+    }
+    th{
+        font-weight:bold;
+        font-size:15px;
+    }
+    td{
+        font-size:14px;
+    }
+    .mat-column-last_name{
+        padding:0 20px;
+    }
+    .mat-column-first_name{
+
+    }
+}
+}

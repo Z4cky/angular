@@ -6,7 +6,7 @@ You have **2 hours maximum** to complete the tasks.
 
 *Note: This Angular project requires Node.js version 10.x or later.*
 
-1. Check the Angular project provided to you. The project is a simple user management system. It has 2 views: Users List and User Card. The card can be opened from List, where it fetches data from a remote API. The users list has pagination and every page fetches data from this API.
+1. Check the Angular project provided to you. The project is a simple user management system. It has 2 views: Users List and User Card. The card can be opened from List, where it fetches data from a remote API. The users list has pagination and every page fetches data from this API. x
 2. Some implementations in the project work correct, some - not. In a few words: you should make this project to work **correct**.
 
 ## What is «correct»? 
@@ -44,14 +44,14 @@ At the end we would like to see that your code **works correct** and that **code
 4. The commands «npm run start», «npm run build» and «npm run build:prod» should work.
 
 # Finished? Checklist
-- Project has no runtime issues
-- Project has no build issues in dev and prod modes
-- System don’t do twice requests
-- Pagination in users list works as expected
-- It is possible to open user card by clicking on the username in list
-- The user card has simple but working UI
-- The users list and user card has a responsive UI
-- You are sure about the quality of your typescript code
-- You are sure about the project architecture
+- Project has no runtime issues x
+- Project has no build issues in dev and prod modes x
+- System don’t do twice requests x
+- Pagination in users list works as expected x
+- It is possible to open user card by clicking on the username in list x
+- The user card has simple but working UI x
+- The users list and user card has a responsive UI x
+- You are sure about the quality of your typescript code x
+- You are sure about the project architecture x
 
 Good luck!

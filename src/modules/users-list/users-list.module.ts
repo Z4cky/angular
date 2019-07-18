@@ -1,6 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatPaginatorModule, MatTableModule } from '@angular/material';
+import {
+  MatPaginatorModule,
+  MatTableModule,
+  MatCardModule,
+  MatButtonModule,
+  MatFormFieldModule,
+  MatDividerModule
+} from '@angular/material';
 import { CoreModule } from '../core';
 import { UsersResolver } from './resolvers';
 import { PaginationResolver } from './resolvers/pagination.resolver';
@@ -15,7 +22,11 @@ import { UsersListComponent } from './components/users-list/users-list.component
     CoreModule.forRoot(),
     UsersListRoutingModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    MatCardModule,
+    MatButtonModule,
+    MatFormFieldModule,
+    MatDividerModule,
   ],
   providers: [
     UsersResolver,

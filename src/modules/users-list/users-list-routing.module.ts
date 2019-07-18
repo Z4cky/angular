@@ -9,7 +9,14 @@ const routes: Routes = [
     path: '',
     resolve: {
       users: UsersResolver,
-      paginationInfo: PaginationResolver
+    },
+    component: UsersListComponent
+  },
+  {
+    path: ':page',
+    resolve: {
+      users: UsersResolver,
+
     },
     component: UsersListComponent
   }
